@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.dumy{
+  font-family: 'Open Sans', sans-serif;
+}
+@import url(headersubsection.css);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul li:first-child {
+    border-bottom: 5px solid #002550;
+  }
+  
+  ul li {
+    border-bottom: 2px solid transparent;
+
+  }
+  
+  ul li:hover {
+    border-bottom-color: #002550;
+    border-bottom-width: 5px;
+  }
+  
+  
+  ul li{
+    list-style: none;
+    padding: 6px;
+    
+  }
+  .header{
+    background-color: #FFFFFF;
+  }
+  .buttons{
+    background-color:#002550!important ;
+    color: #FFFFFF; 
+  }
+  .home ul{
+    margin: 0px !important;
+  }
+
+
+  
