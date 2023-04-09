@@ -84,6 +84,19 @@
   .houseimage{
     padding: 0px !important;
   }
+  .mainsection{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin-top: 8px;
+    position: relative;
+  }
+  .contentss p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 150px;
+  }
   .contents img{
 max-width: 100%;
 padding: 17px;
@@ -106,13 +119,14 @@ padding: 17px;
 
   }
   .houseimage p{
-     font-size: 18px;
+     font-size: 30px;
      padding-right: 18px;
      display: flex;
      justify-content: flex-start;
 
      align-items: center;
      font-family: 'Open Sans';
+     flex-direction: column;
   }
   .contentsection{
     display: flex;
@@ -320,10 +334,11 @@ padding: 17px;
   padding-left: 0px;
   padding-right: 0px;
     }
-    .contents p{
-      position:unset;
-      transform:none;
+    .contentss p{
+      /* position:unset;
+      transform:none; */
       margin-left: 4px;
+      font-size: 8px;
     }
     .subsection{
       margin-bottom: 10px;

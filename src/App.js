@@ -24,18 +24,19 @@ function App() {
        <Headersubimg/>
        <Ouroffersection/>
        <Ourteammembers/>
-       
+       </div>
       <div className='bloghead'>
-        <div></div>
+        <div className='container'>
        <Blogs/>
        </div>
-       
-       <Contactform/> 
-       
-       <Footersection/> 
        </div>
+       <div className='container'>
+       <Contactform/> 
+       </div>
+      
+      
 
-
+       <Footersection/> 
   </>
   );
 }

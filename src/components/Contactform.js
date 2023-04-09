@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import happy from "./Images/Happy.svg"
-import { Formik } from "formik";
-import * as yup from "yup";
+import happy from "./Images/happy.svg"
+// import { Formik } from "formik";
+// import * as yup from "yup";
 import Select from 'react-select';
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';

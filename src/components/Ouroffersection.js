@@ -1,7 +1,7 @@
 import './styles/headersubsection.css'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import backgroundveri from './Images/background-veri.svg'
+import backgroundveri from './Images/backgroundveri.svg'
 import virtual from "./Images/virtual.svg"
 import title from "./Images/title.svg"
 import arrow from './Images/arrow.svg'
@@ -50,7 +50,7 @@ function Ouroffersection() {
         <Card.Text>
         Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed...
         </Card.Text>
-        <div className='buttonsection'>
+        <div className='buttonsection d-flex justify-content-between'>
         <Button className='buttonsnow'>
             <span className='mx-1'>Contact us</span>
             <span className='pl-1'><img src={arrow} /></span>

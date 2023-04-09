@@ -1,10 +1,10 @@
 
 import React from 'react'
 import logo1 from "../components/Images/logos1.svg";
-import vector from "./Images/Vector.svg"
-import vector1 from "./Images/vone.svg"
-import vector2 from "./Images/vtwo.svg"
-import vector3 from "./Images/vthree.svg"
+import vector from "./Images/first.svg"
+import vector1 from "./Images/second.svg"
+import vector2 from "./Images/third.svg"
+import vector3 from "./Images/fourth.svg"
 import './styles/headersubsection.css'
 import message from "./Images/message.svg"
 import calls from "./Images/calls.svg"
@@ -56,7 +56,7 @@ function Footersection() {
 
       <div className='row  pb-4 mt-8 justify-content-between justify-content-center align-items-center'>
        <div className='col-sm-12 col-md-4 copyright'>Copyright 2023. Designed by INRE Global</div> 
-       <div className='col-sm-12 col-md-  d-flex justify-content-between justify-content-center align-items-center'>
+       <div className='col-sm-12 col-md-5 d-flex justify-content-between justify-content-center align-items-center'>
         <div className='first'>
         <img src={vector} alt='' />
         <span className='pl-1'>LinkedIn</span>
